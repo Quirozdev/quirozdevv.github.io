@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera página</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Bienvenido a mi página</h1>
+    <img src="images/leon-chico.jpg" alt="imagen de un león chico">
+    <p>Esta página tiene el propósito de prácticar lo básico de programación web</p>
+    <p>Voy a probar una lista para hacer una tarea</p>
+
+    <ol>
+        <li>Analizar la tarea</li>
+        <li>Investigar</li>
+        <li>Hacerla</li>
+        <li>Enviarla</li>
+    </ol>
+    <p>Listo</p>
+    <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/">Curso de mozilla que estoy tomando</a>
+
+    <button>Cambiar de usuario</button>
+    <!--
+Nota: la razón por la que has puesto el elemento <script> 
+casi al final del documento HTML es porque el navegador 
+carga el HTML en el orden en que aparece en el archivo.
+Si se cargara primero JavaScript y se supone que debe afectar al HTML 
+que tiene debajo, podría no funcionar, ya que ha sido cargado antes 
+que el HTML sobre el que se supone debe trabajar. Por lo tanto, colocar 
+el JavaScript cerca del final de la página es normalmente la mejor 
+estrategia.
+-->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
